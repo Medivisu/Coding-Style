@@ -81,6 +81,7 @@ enum class MyEnum
 	LABEL2,
 	LABEL3
 };
+```
 
 ## Namespaces
 
