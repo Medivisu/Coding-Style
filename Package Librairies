@@ -1,0 +1,19 @@
+
+package debian vtk :
+    libvtk-6
+    libvtk-6-dev
+    !! Issue si JDK pas installé
+    -> fix = installé jdk (?), supprimé les libs qui utilisent java ( pas utilisée anw. )
+
+package debian gdcm
+    libgdcm2-dev
+
+package ITK :
+    libinsighttoolkit4-dev
+    
+package lien VTK / GDCM :
+    libvtkgdcm2-dev
+    
+package VTK Qt:
+    libvtk6-qt-dev    
+
